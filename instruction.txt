@@ -32,3 +32,12 @@ git log --graph --decorate --oneline
 show history of specific commit 
 git show commitHashCode
 ..............................................................
+handle reset 
+git reset --hard commithashcode
+that make all areas the same (pointing to that commit)
+............................................................
+unstage from staging area example 
+-create new file 
+-add it to staging area 
+-before commit it we want to unstage the new added file back to working area 
+git reset HEAD
