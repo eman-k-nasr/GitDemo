@@ -7,3 +7,8 @@ second go to project directory and open gitbash and write these commands
     git remote add origin <remote repository URL>
     git push -u origin master
 
+.................
+create a branch 
+git checkout -b ＜new-branch＞
+..........................
+
