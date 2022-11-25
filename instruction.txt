@@ -41,3 +41,4 @@ unstage from staging area example
 -add it to staging area 
 -before commit it we want to unstage the new added file back to working area 
 git reset HEAD
+
