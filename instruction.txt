@@ -25,3 +25,10 @@ git add oldFileName (overwritten)
 git status (renamed)
 ..................................
 
+show history 
+git log --graph --decorate --oneline
+...............................................................
+
+show history of specific commit 
+git show commitHashCode
+..............................................................

@@ -1,0 +1,13 @@
+this file is added while working on branch 1
+suddenly something interrupt u and for example you want to move to another branch 
+but you don't want to loase your data 
+and on the same time you don't want to commit your work now 
+
+the best solution in this case is use "stash" command
+
+git stash --include-untracked
+
+if you want to return changes from stash you can do this 
+git stash apply 
+
+here you're again with changes you left before
