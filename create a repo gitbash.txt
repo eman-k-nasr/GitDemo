@@ -1,0 +1,9 @@
+first create a repo on github 
+second go to project directory and open gitbash and write these commands 
+
+    git init
+    git add .
+    git commit -m "first commit"
+    git remote add origin <remote repository URL>
+    git push -u origin master
+
