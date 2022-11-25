@@ -1,0 +1,27 @@
+first create a repo on github 
+second go to project directory and open gitbash and write these commands 
+
+    git init
+    git add .
+    git commit -m "first commit"
+    git remote add origin <remote repository URL>
+    git push -u origin master
+
+.................
+create a branch 
+git checkout -b ＜new-branch＞
+add & commit & push 
+git add .
+git commit -m "msg"
+git push origin branchName
+..........................
+renaming file 
+rename file you want in your working directory 
+.you first need to add renamed file as a new one 
+git add newFileName (moved to staging)
+.secondly we need to overwrite the old one 
+git add oldFileName (overwritten)
+.check status
+git status (renamed)
+..................................
+
